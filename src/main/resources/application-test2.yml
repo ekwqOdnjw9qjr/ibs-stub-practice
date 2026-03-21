@@ -1,0 +1,6 @@
+server:
+  port: 7775
+
+stub:
+  delay:
+    default-delay: 4

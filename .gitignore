@@ -1,0 +1,59 @@
+# Compiled files
+target/
+*.jar
+*.war
+*.ear
+!target/*.jar
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+HELP.md
+
+# IDE files
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+.sts4-cache
+.apt_generated
+.factorypath
+.springBeans
+
+# Logs
+logs/
+*.log
+
+# Database files
+*.h2.db
+*.lock.db
+*.trace.db
+*.mv.db
+
+# System files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Application specific
+application-local.yml
+application-dev.yml
+application-prod.yml
+
+# Testing
+**/test-output/
+**/surefire-reports/
+
+# Build
+**/build/
+**/dist/
+**/nbdist/
+**/nbbuild/
+**/nbproject/private/
