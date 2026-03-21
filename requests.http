@@ -92,25 +92,25 @@ Content-Type: application/json
 ### 3.1 Удаление с ID = 1
 DELETE {{test1Url}}/v1/transactions/cleare/1
 
-### 5. Проверка метрик Micrometer
 
-### 5.1 Все доступные метрики
+### 4. Проверка метрик Micrometer
+
+### 4.1 Все доступные метрики
 GET {{baseUrl}}/actuator/metrics
 Accept: application/json
 
-### 5.2 Метрики памяти JVM
+### 4.2 Метрики памяти JVM
 GET {{baseUrl}}/actuator/metrics/jvm.memory.used
 Accept: application/json
 
-### 5.3 Метрики GC
+### 4.3 Метрики GC
 GET {{baseUrl}}/actuator/metrics/jvm.gc.pause
 Accept: application/json
 
-### 5.4 Метрики HTTP запросов
+### 4.4 Метрики HTTP запросов
 GET {{baseUrl}}/actuator/metrics/http.server.requests
 Accept: application/json
 
-### 5.5 Метрики CPU
+### 4.5 Метрики CPU
 GET {{baseUrl}}/actuator/metrics/process.cpu.usage
 Accept: application/json
-

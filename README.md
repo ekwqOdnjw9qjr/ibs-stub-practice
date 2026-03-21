@@ -94,10 +94,6 @@ java -Xms2g -Xmx4g -jar target/ibs-stub-task-0.0.1-SNAPSHOT.jar --spring.profile
 
 Логи пишутся в файл: logs/app.log
 
-
-## Структура проекта
-
-
 ## Структура проекта
 
 ```text
