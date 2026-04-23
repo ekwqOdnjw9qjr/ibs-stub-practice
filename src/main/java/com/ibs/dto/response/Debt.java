@@ -16,6 +16,6 @@ public class Debt {
     @Schema(description = "Debt amount", example = "1000")
     private int sum;
 
-    @Schema(description = "Debt description", example = "parking")
+    @Schema(description = "Debt description12", example = "parking")
     private String description;
 }
